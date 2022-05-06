@@ -9,7 +9,7 @@ import java.util.TreeMap;
 import static java.lang.String.format;
 
 public class ResultRepository {
-    public static final int TEST_COUNT = 1000;
+    public static final int TEST_COUNT = 10;
     private final SortedMap<Integer, List<Long>> results = new TreeMap<>();
     private static ResultRepository instance;
 
